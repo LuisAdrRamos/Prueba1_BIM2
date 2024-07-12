@@ -14,7 +14,7 @@ public class login {
     private JButton loginButton;
     private JLabel imageLabel;
 
-    String urlB = "jdbc:mysql://localhost:3306/Productos_Personales";
+    String urlB = "jdbc:mysql://localhost:3306/Product_CuidadoPersonal";
     String usuarioB = "root";
     String passwordB = "123456";
     String sql = "select * from USUARIO where usuario = ?";

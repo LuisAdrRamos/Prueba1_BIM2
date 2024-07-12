@@ -21,7 +21,7 @@ public class MenuProductos {
     public JPanel menu;
     private JButton limpiarButton;
 
-    String urlB = "jdbc:mysql://localhost:3306/Productos_Personales";
+    String urlB = "jdbc:mysql://localhost:3306/Product_CuidadoPersonal";
     String usuarioB = "root";
     String passwordB = "123456";
     String sql = "INSERT INTO PRODUCTO (codigo_producto, nombre, descripcion, precio, cantidad, categoria) values (?,?,?,?,?,?)";
