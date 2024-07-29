@@ -13,6 +13,7 @@ public class busqueda {
     private JButton buscarButton;
     private JButton registroButton;
     private JTextField codigo;
+    private JPanel BUSQUEDA;
 
     String url = "jdbc:mysql://localhost:3306/Product_CuidadoPersonal";
     String usuario = "root";
@@ -22,7 +23,7 @@ public class busqueda {
     public busqueda() {
         JFrame frame = new JFrame("Busqueda");
         Container busqueda = new Container();
-        frame.setContentPane(busqueda);
+        frame.setContentPane(BUSQUEDA);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setSize(600, 600);

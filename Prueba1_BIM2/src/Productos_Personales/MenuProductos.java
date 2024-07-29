@@ -68,7 +68,7 @@ public class MenuProductos {
         buscarProductoButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                new busqueda();
             }
         });
         limpiarButton.addActionListener(new ActionListener() {
